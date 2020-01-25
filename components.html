@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temp</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="components-wrapper">
+        <div class="container-fluid">
+            <h1>
+		| Components
+	</h1>
+            <h2>
+		BUTTONS
+	</h2>
+            <h3>
+		LURGE BUTTONS
+	</h3>
+
+            <div class="buttons-wrapper">
+                <div class="form-row">
+                    <button class="button">
+                        default
+                    </button>
+                    <button class="button disable" disabled>
+                        disable
+                    </button>
+                </div>
+                <div class="form-row">
+                    <button class="button button-light--blue">
+                        default
+                    </button>
+                    <button class="button disable" disabled>
+                        disable
+                    </button>
+                </div>
+
+                <div class="form-row">
+                    <button class="button button-white">
+                        default
+                    </button>
+                    <button class="button disable" disabled>
+                        disable
+                    </button>
+                </div>
+
+            </div>
+
+            <h2>
+		input forms
+	</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>default</h3>
+                    <div class="form-row">
+
+                        <div class="input-wrapper">
+                            <input type="text" placeholder="Plaseholder">
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="input-wrapper">
+                            <input type="text" placeholder="Disable" disabled>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-wrapper error">
+                            <input type="text" value="Error" class="error">
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="input-wrapper succesfull">
+                            <input type="text" value="Succesfull" class="succesfull">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>DROPDOWN</h3>
+
+                    <div class="form-row">
+                        <div class="select-wrapper">
+                            <select name="" id="">
+
+                                <option value="">Value1</option>
+                                <option value="">Value2</option>
+                                <option value="">Value3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="select-wrapper select-wrapper--img">
+                            <select name="" id="">
+
+                                <option value="">Value1</option>
+                                <option value="">Value2</option>
+                                <option value="">Value3</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="select-wrapper">
+                            <select name="" id="" disabled>
+
+                                <option value="">Value1</option>
+                                <option value="">Value2</option>
+                                <option value="">Value3</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="select-wrapper select-wrapper--img desable">
+                            <select name="" id="" disabled>
+
+                                <option value="">Value1</option>
+                                <option value="">Value2</option>
+                                <option value="">Value3</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <h3>MULTI-SELECT</h3>
+
+                    <div class="form-row">
+                        <span class="datalist-arrow">
+  <input list="multiselect" name="multiselect" placeholder="Enter the keyword..." type="text">
+  <datalist id="multiselect">
+    <option value="Lorem ipsum dolor sit amet">
+    <option value="Lorem ipsum dolor sit amet">
+    <option value="Lorem ipsum dolor sit amet">
+    <option value="Lorem ipsum dolor sit amet">
+    <option value="Lorem ipsum dolor sit amet">
+  </datalist>
+  </span>
+                    </div>
+
+                    <!-- -----------start tags container----------------->
+                    <div class="form-row">
+                        <div class="tags-container">
+                            <div class="tag">value
+                                <div class="close">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="tag">value2
+                                <div class="close">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -----------end tags container----------------->
+                    <div class="form-row">
+                        <select name="" id="" size="3" class="multi-select">
+                            <option value="">value1</option>
+                            <option value="">value2</option>
+                            <option value="">value3</option>
+
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Search bar</h3>
+                    <div class="search-wrapper">
+                        <input type="search" placeholder="Search jobs">
+                        <div class="close-search">
+                            <a href="">
+                                <img src="img/close2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>Date picker</h3>
+
+                    <div class="input-wrapper datapicker-wrapper">
+                        <input type="text" id="datepicker" placeholder="21/09/2018">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>Text box</h3>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Full address"></textarea>
+                </div>
+            </div>
+            <h2>
+		OTHER COMPONENTS
+	</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>checkbox</h3>
+                    <div class="form-row">
+                        <div class="checkbox-container">
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="1" />
+                                <label for="1"></label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-container">
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="2" checked />
+                                <label for="2"></label>
+
+                            </div>
+                        </div>
+                        <div class="checkbox-container">
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="3" checked disabled/>
+                                <label for="3"></label>
+
+                            </div>
+                        </div>
+
+                        <div class="checkbox-container">
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="4" disabled/>
+                                <label for="4"></label>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <h3>radiobutton</h3>
+                    <div class="form-row">
+                        <div class="checkbox-container">
+                            <div class="radio-wrapper">
+                                <input type="radio" id="radio5" name="1" />
+                                <label for="radio5"></label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-container">
+                            <div class="radio-wrapper">
+                                <input type="radio" id="radio6" checked name="1" />
+                                <label for="radio6"></label>
+
+                            </div>
+                        </div>
+                        <div class="checkbox-container">
+                            <div class="radio-wrapper">
+                                <input type="radio" id="radio7" checked disabled name="2" />
+                                <label for="radio7"></label>
+
+                            </div>
+                        </div>
+
+                        <div class="checkbox-container">
+                            <div class="radio-wrapper">
+                                <input type="radio" id="radio8" disabled name="2" />
+                                <label for="radio8"></label>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3>selector</h3>
+                    <div class="form-row">
+                        <div class="checkbox-container">
+                            <div class="selector-wrapper">
+                                <input type="radio" id="radio1" name="3" />
+                                <label for="radio1"></label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-container">
+                            <div class="selector-wrapper">
+                                <input type="radio" id="radio2" checked name="3" />
+                                <label for="radio2"></label>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3>tags</h3>
+                    <div class="form-row">
+                        <div class="tag">value
+                            <div class="close">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="tag disabled">value
+                            <div class="close">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <h3>badges</h3>
+                    <div class="badges-wrapper">
+                        <div class="badge badge--blue">
+                            8
+                        </div>
+                        <div class="badge badge--green">
+                            <img src="img/check-white.svg" alt="">
+                        </div>
+                        <div class="badge badge--blue badge--big">
+                            4
+                        </div>
+                        <div class="badge badge--green badge--big">
+                            <img src="img/star.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <h3>text link</h3>
+                    <div class="link-wrapper">
+                        <a href="" class="text-link">Text Link</a>
+                        <a href="" class="text-link disabled">Disabled</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <h3>rating</h3>
+                    <div class="rating">
+                        <div class="rating-wrapper">
+                            <img src="img/star-ret.png" alt="">
+                            <img src="img/star-rt2.png" alt="">
+                            <img src="img/star-3.png" alt="">
+                        </div>
+
+                        <div class="rating-wrapper">
+                            <img src="img/star-ret.png" alt="">
+                            <img src="img/star-ret.png" alt="">
+                            <img src="img/star-ret.png" alt="">
+                            <img src="img/star-rt2.png" alt="">
+                            <img src="img/star-3.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <h3>switch</h3>
+                    <input type="checkbox" class="switch" id="switch" />
+                    <label for="switch"></label>
+                    <input type="checkbox" class="switch" id="switch3" checked/>
+                    <label for="switch3"></label>
+                    <input type="checkbox" class="switch" id="switch2" disabled />
+                    <label for="switch2"></label>
+
+                    <input type="checkbox" class="switch" id="switch2" disabled checked/>
+                    <label for="switch2"></label>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
